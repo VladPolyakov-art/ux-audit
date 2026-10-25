@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Taskly - Dashboard</title>
+<style>body{font-family:sans-serif}.x{color:#fff;background:#c00}</style></head>
+<body>
+<nav>Home | Workspaces | Projects | Boards | Sprints | Epics | Backlog | Reports | Integrations | Automations | Billing | Audit log | Admin</nav>
+<h1>Projects</h1>
+<ul>
+  <li>Demo project <button class="x" onclick="del()">Delete</button> <button>Archive</button></li>
+</ul>
+<button>+ New</button>
+<script>function del(){ document.querySelector('ul').innerHTML=''; /* deletes immediately, no confirm, no undo */ }</script>
+</body></html>
